@@ -2,21 +2,19 @@
  *   Flujo de trabajo de la electronica
  *   
  *   Sensor de pulso -> Arduino -> Serial
- *   Salida por serial (9600 baudios)
+ *   Salida por serial
  *   IBI,812      -> intervalo entre latidos en milisegundos (BPM = 60000/812)
  *   NOSIGNAL     -> no se detecta latido hace 2.5 s (dedo suelto o sin pulso)
  *   Conexion: sensor cable amarillo -> A0, VCC (cable rojo) -> 5V (o 3.3V), GND (cable negro) -> GND
 */
 
 const int PIN_PULSO = A0; /*Pueden conectarlo a otro pin, pero si o si debe ser a uno analogico*/
-
-
 const unsigned long MUESTREO_MS = 2;       /* lee el sensor cada 2 ms*/
 const unsigned long REFRACTARIO_MS = 250;  /* ignora "latidos" mas rapidos (ruido)*/
 const unsigned long SIN_SENAL_MS = 2500;   /* tiempo sin latido. Servira para notificar al agente*/
 
 const bool MODO_PLOTTER = false;  /* true = envia señal cruda para el Serial Plotter*/
- const bool MODO_LEGIBLE = true;   /*Ver pulso normal (lectura humana*/
+const bool MODO_LEGIBLE = false;   /*Ver pulso en formato normal*/
 
 int pico = 512, valle = 512, umbral = 530;
 bool enPulso = false;

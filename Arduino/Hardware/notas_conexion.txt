@@ -1,0 +1,4 @@
+En el caso del sensor utilizado, cuenta con tres conexciones: vcc, gnd y signal.
+El primero es para la conxion del voltaje (normalmente a un pin de 5v o 3.3v), el gnd representa la tierra y va al pin del mismo nombre en la placa y el ultimo se conecta a un pin para controlar el sensor, en este caso como la información de este es Analógica, debe estar conectado a un pin analogico (son aquellos que empiezan con la letra A).
+
+Normalmente el color de cable se usa para identificar para que es cada pin, dejando colores rojizos para la energía y el negro normalmente para la tierra/gnd, pero esto no es una necesidad, es más que nada una buena practica.
