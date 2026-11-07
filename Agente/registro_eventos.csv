@@ -1,0 +1,36 @@
+fecha_hora,t_s,estado_anterior,estado_nuevo,bpm,variabilidad,motivo
+2026-11-02T15:24:13,40.0,NORMAL,SOSPECHOSO,90,0.18,ritmo algo irregular (var 0.18)
+2026-11-02T15:24:40,67.6,SOSPECHOSO,CONFIRMADO,87,0.36,ritmo muy irregular (var 0.36)
+2026-11-02T15:25:09,96.7,CONFIRMADO,CRITICO,,,sin latidos hace 21 s (sensor suelto o ausencia de pulso)
+2026-11-02T15:30:47,108.2,NORMAL,SOSPECHOSO,173,0.01,BPM 173 fuera del rango duro
+2026-11-02T15:30:51,112.4,SOSPECHOSO,CONFIRMADO,173,0.01,BPM 173 fuera del rango duro
+2026-11-02T15:41:10,80.4,NORMAL,SOSPECHOSO,87,0.14,ritmo algo irregular (var 0.14)
+2026-11-02T15:41:28,99.1,SOSPECHOSO,CONFIRMADO,75,0.32,ritmo muy irregular (var 0.32)
+2026-11-02T15:41:53,123.3,CONFIRMADO,SOSPECHOSO,81,0.13,recuperando: ritmo algo irregular (var 0.13)
+2026-11-02T15:42:25,155.4,SOSPECHOSO,CONFIRMADO,81,0.40,ritmo muy irregular (var 0.40)
+2026-11-02T15:42:46,176.8,CONFIRMADO,CRITICO,,,sin latidos hace 21 s (sensor suelto o ausencia de pulso)
+2026-11-02T15:43:05,196.2,CRITICO,CONFIRMADO,,,recuperando: sin latidos hace 11 s (sensor suelto o ausencia de pulso)
+2026-11-02T15:43:15,206.2,CONFIRMADO,CRITICO,,,sin latidos hace 21 s (sensor suelto o ausencia de pulso)
+2026-11-02T15:44:13,263.9,CRITICO,CONFIRMADO,,,recuperando: sin latidos hace 11 s (sensor suelto o ausencia de pulso)
+2026-11-02T15:44:28,278.8,CONFIRMADO,SOSPECHOSO,,,recuperando: pocos datos
+2026-11-02T15:44:41,291.5,SOSPECHOSO,CONFIRMADO,88,0.32,ritmo muy irregular (var 0.32)
+2026-11-02T15:46:22,393.1,CONFIRMADO,CRITICO,,,sin latidos hace 21 s (sensor suelto o ausencia de pulso)
+2026-11-02T15:46:38,408.7,CRITICO,CONFIRMADO,,,recuperando: sin latidos hace 5 s (sensor suelto o ausencia de pulso)
+2026-11-02T15:48:28,518.7,CONFIRMADO,SOSPECHOSO,,,recuperando: pocos datos
+2026-11-02T15:48:43,533.4,SOSPECHOSO,CONFIRMADO,,,sin latidos hace 17 s (sensor suelto o ausencia de pulso)
+2026-11-02T15:48:57,547.6,CONFIRMADO,SOSPECHOSO,,,recuperando: pocos datos
+2026-11-02T15:49:06,556.9,SOSPECHOSO,CONFIRMADO,108,0.82,BPM 108 muy lejos de su base (83)
+2026-11-02T15:50:10,620.6,CONFIRMADO,SOSPECHOSO,,,recuperando: sin latidos hace 7 s (sensor suelto o ausencia de pulso)
+2026-11-02T15:50:21,631.7,SOSPECHOSO,CONFIRMADO,63,0.60,BPM 63 muy lejos de su base (83)
+2026-11-02T15:52:03,733.6,CONFIRMADO,CRITICO,,,sin latidos hace 21 s (sensor suelto o ausencia de pulso)
+2026-11-02T15:52:25,756.2,CRITICO,CONFIRMADO,80,0.55,recuperando: ritmo muy irregular (var 0.55)
+2026-11-02T15:53:18,808.7,CONFIRMADO,SOSPECHOSO,,,recuperando: pocos datos
+2026-11-02T15:53:29,819.7,SOSPECHOSO,CONFIRMADO,74,0.56,ritmo muy irregular (var 0.56)
+2026-11-06T00:57:25,55.3,NORMAL,SOSPECHOSO,131,0.13,BPM 131 muy lejos de su base (72)
+2026-11-06T00:57:25,60.5,SOSPECHOSO,CONFIRMADO,135,0.14,BPM 135 muy lejos de su base (72)
+2026-11-06T00:57:28,99.0,CONFIRMADO,SOSPECHOSO,71,0.03,recuperando: dentro de lo esperado
+2026-11-06T00:57:28,114.5,SOSPECHOSO,CONFIRMADO,72,0.30,ritmo muy irregular (var 0.30)
+2026-11-06T00:57:28,152.9,CONFIRMADO,CRITICO,,,sin latidos hace 21 s (sensor suelto o ausencia de pulso)
+2026-11-06T00:57:32,172.8,CRITICO,CONFIRMADO,71,0.03,recuperando: dentro de lo esperado
+2026-11-06T00:57:32,183.7,CONFIRMADO,SOSPECHOSO,71,0.04,recuperando: dentro de lo esperado
+2026-11-06T00:57:32,195.3,SOSPECHOSO,NORMAL,72,0.04,recuperando: dentro de lo esperado

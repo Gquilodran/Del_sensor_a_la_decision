@@ -42,7 +42,7 @@ from email.message import EmailMessage
 # ================= PARAMETROS =================
 VENTANA_S = 20                  # segundos de historia que mira el agente
 CALIB_LATIDOS = 20              # latidos para aprender la linea base
-CALIB_TOLERANCIA = 0.25         # en la calibracion se descartan BPM a mas de 25 % de la mediana
+CALIB_TOLERANCIA = 0.55         # en la calibracion se descartan BPM a mas de 25 % de la mediana modificada para realizar pruebas
 DESCARTAR_INICIO = 3            # primeros latidos validos: el sensor se estabiliza
 IBI_MIN, IBI_MAX = 300, 2000    # ms; fuera de este rango es ruido y se descarta
 SIGMA_MIN = 6.0                 # BPM; desviacion minima aceptada en la base
@@ -112,7 +112,7 @@ def plantilla(estado, motivo, bpm, base):
 
 
 def redactar_ollama(estado, motivo, bpm, base):
-    """OPCIONAL: Ollama solo redacta el texto. La decision ya la tomaron las reglas."""
+    """Ollama solo redacta el texto. La decision ya la tomaron las reglas."""
     import ollama
     bpm_txt = "sin datos" if bpm is None else f"{bpm:.0f}"
     r = ollama.chat(model="llama3.2:3b", options={"temperature": 0}, messages=[{

@@ -1,0 +1,7 @@
+[Monitor de pulso] Estado CRITICO
+ALERTA (CRITICO) - monitor de pulso
+Hora: 2026-11-02 15:52:04
+Pulso estimado: sin datos (base personal: 83 BPM)
+Motivo: sin latidos hace 21 s (sensor suelto o ausencia de pulso)
+
+Sistema educativo, no es un dispositivo medico. Verifique a la persona y el sensor; ante la duda, busque atencion medica.
